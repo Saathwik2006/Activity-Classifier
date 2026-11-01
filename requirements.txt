@@ -1,0 +1,8 @@
+# Install PyTorch CPU build first (smaller download than the default):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# then the rest:
+#   pip install -r requirements.txt
+opencv-python
+numpy
+matplotlib   # optional, only for the confusion-matrix picture
+ultralytics  # optional, only for the YOLO person box (realtime.py falls back to the simple box without it)
